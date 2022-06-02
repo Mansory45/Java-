@@ -1,0 +1,31 @@
+package com.syntax.class06;
+
+public class SwitvhDemo {
+
+	public static void main(String[] args) {
+
+
+		char choice = 'm';
+		String meaning;
+		
+		// variable and matching case must be of same type
+		// switch dose not allow to have duplicated cases
+		switch(choice) {
+		
+		case 'Y':
+			meaning ="Yes";
+			break;
+		case 'M':
+			meaning="Maybe";
+			break;
+		case 'N':
+			meaning = "No";
+			break;
+		default:
+			meaning ="Unknown";
+		}
+		
+		System.out.println(meaning);
+	}
+
+}
